@@ -15,8 +15,8 @@ spec:
     - -d
     - '{"name": "john"}'
     - --duration=5m
-    - --concurrency=300
-    - --qps=100
+    - --concurrency=100
+    - --qps=200
     - --duration-stop=wait
     - workload:50051
     resources:
