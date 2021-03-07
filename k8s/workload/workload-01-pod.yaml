@@ -6,7 +6,7 @@ metadata:
   name: workload
 spec:
   containers:
-  - image: sckmkny/my-app:0.1.0
+  - image: sckmkny/hello-threads-java:0.1.0
     name: workload
     ports:
     - name: grpc
